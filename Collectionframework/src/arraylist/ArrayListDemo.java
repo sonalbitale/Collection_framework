@@ -41,6 +41,10 @@ public class ArrayListDemo {
 	
 	 System.out.println(" list after removing  the elemnt by using index i "+list);
 	
+	 
+	 // chceck if element is present or not
+	 boolean contains = list.contains("sonal");
+	 System.out.println(contains);
 	
 	
 	}
