@@ -3,6 +3,7 @@ package arraylist;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+
 public class ArrayListDemo {
 	public static void main(String args[]) 
 	{
@@ -46,6 +47,18 @@ public class ArrayListDemo {
 	 boolean contains = list.contains("sonal");
 	 System.out.println(contains);
 	
+	
+	 
+	 // adding another class objects 
+	 
+		ArrayList<Student> list1 = new ArrayList<>();
+	 Student stu = new Student("mrunal",101);
+	 Student stu1 = new Student("monali",102);
+	 
+	 list1.add(stu);
+	 list1.add(stu1);
+	 
+	 System.out.println("the person class details is here "+ list1);
 	
 	}
 	
